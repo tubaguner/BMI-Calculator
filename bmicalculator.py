@@ -61,7 +61,7 @@ result_label = ttk.Label(calculate_bmi,text="Result:")
 result_label.pack(fill='x', expand=True)
 
 result_var = Tk.StringVar()
-result_entry = ttk.Entry(calculate_bmi)
+result_entry = ttk.Entry(calculate_bmi,textvariable=result_var)
 result_entry.pack(fill='x', expand=True)
 
 calculate_button = ttk.Button(calculate_bmi, text="Calculate",command=lambda:calculate_bmi_value)
