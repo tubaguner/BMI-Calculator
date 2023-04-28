@@ -24,20 +24,6 @@ def return_result():
     return_label.config(text=msg)
     
 
-
-
-
-
-    
-#def button3_clicked():
-    """ callback when the login button3 clicked
-    """
-    #msg = f'You entered calculate: {calculate.get()}'
-    #showinfo(
-        #title='Information',
-        #message=msg
-    #)
-
 calculate_bmi = ttk.Frame(root)
 calculate_bmi.pack(padx=10, pady=10, fill='x', expand=True)
 
