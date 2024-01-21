@@ -13,32 +13,6 @@ def calculate_bmi_value():
     result_var.set(f"BMI: {bmi:.2f}")
     
     
-
-#def calculate_button():
-    #height = float(height_var.get())
-    #weight = float(weight_var.get())
-    #bmi = weight / (height ** 2)
-    #result_var.set("BMI: {bmi:.2f}")
-
-#def return_result():
-    #msg = f'You entered result: {result_var.get()}'
-    
-    
-
-
-
-
-
-    
-#def button3_clicked():
-    """ callback when the login button3 clicked
-    """
-    #msg = f'You entered calculate: {calculate.get()}'
-    #showinfo(
-        #title='Information',
-        #message=msg
-    #)
-
 calculate_bmi = ttk.Frame(root)
 calculate_bmi.pack(padx=10, pady=10, fill='x', expand=True)
 
@@ -73,13 +47,5 @@ calculate_button.pack(fill='y', expand=False, pady=10)
 #button3.pack(ipadx=15, ipady=10)
 
 
-#def height(height):
-    #return f"{Height}" 
-#def weight(weight):
-    #return f"{Weight}"
-#def calculate(calculate):
-    #return f"{Calculate}"
-#def result(result):
-    #return f"{Result}"
 
 root.mainloop()
